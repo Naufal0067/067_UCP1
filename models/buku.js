@@ -5,20 +5,16 @@ module.exports = (sequelize, DataTypes) => {
            autoIncrement: true,
            primaryKey: true,
         },
-
-        judul: {
+        Judul: {
             type: DataTypes.STRING,
         },
-
-        pengarang: {
+        Pengarang: {
             type: DataTypes.STRING,
         },
-
-        tahunterbit: {
+        TahunTerbit: {
             type: DataTypes.INTEGER,
         },
-
-        bidang: {
+        Bidang: {
             type: DataTypes.STRING,
         }
     });
