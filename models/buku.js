@@ -15,7 +15,7 @@ module.exports = (Sequelize, DataTypes) => {
         },
 
         TahunTerbit: {
-            type: DataTypes.DATE,
+            type: DataTypes.INTEGER,
         },
 
         Bidang: {
